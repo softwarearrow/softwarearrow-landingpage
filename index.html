@@ -8,9 +8,10 @@
   <title>Software Arrow</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="styles2.css">
-  <script> function scrollToTop() { window.scrollTo({ top: 0, behavior: "smooth" }); }
-  </script>
-
+  <link rel="stylesheet" href="accordion-styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <script> </script>
 </head>
 
 <body>
@@ -32,7 +33,7 @@
           <a href="">Enlace 3</a>
         </div>
       </div>
-      <button>SERVICES</button>
+      <button class="expansive-btn">SERVICES</button>
       <div class="dropdown">
         <button>PAGES ▾</button>
         <div class="dropdown-content">
@@ -41,15 +42,16 @@
           <a href="#">Enlace 3</a>
         </div>
       </div>
-      <button>CONTACT</button>
+      <button class="expansive-btn">CONTACT</button>
     </div>
   </nav>
-  <div class="ca">
-    <div class="cb">
 
+  <section class="ca">
+    <div class="cb">
       <div class="cba">
         <h1>We're Building <br><span>Software</span> For You</h1>
-        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Voluptates vel beatae laboriosam ea repellendus.<br>
+        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Voluptates vel beatae laboriosam ea
+          repellendus.<br>
           Lorem ipsum dolor</h3>
         <div class="cbb">
           <div id="container">
@@ -60,17 +62,244 @@
               <span class="button-text">GET STARTED</span>
             </button>
           </div>
-          <hr/>
-          <button>
+          <hr />
+          <button class="expansive-btn">
             <h1>LEARN&nbspMORE</h1>
           </button>
-          
         </div>
-
       </div>
     </div>
     <div class="cc">
       <img src="src/main.jpg">
     </div>
-  </div>
+  </section>
+
+  <section class="da">
+    <div class="db">
+      <h2>ABOUT US</h2>
+      <h1>What is SOFTING?</h1>
+      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis inventore minima sequi dolor optio, quibusdam
+        vero pariatur laboriosam ipsam voluptatibus vel ipsa, eius.</h4>
+    </div>
+    <div class="dc">
+      <button class="expansive-btn">
+        <span class="material-icons" style="font-size: 3.5rem; color: rgb(125, 222, 255);">coronavirus</span>
+        <h1>Live Messaging</h1>
+        <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ducimus soluta veniam</h4>
+      </button>
+      <button class="expansive-btn">
+        <i class="material-icons" style="font-size: 3.5rem; color: rgb(125, 222, 255);">email</i>
+        <h1>Email Workflow</h1>
+        <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ducimus soluta veniam</h4>
+      </button>
+      <button class="expansive-btn">
+        <i class="material-icons" style="font-size: 3.5rem; color: rgb(125, 222, 255);">file_copy</i>
+        <h1>File Upload</h1>
+        <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ducimus soluta veniam</h4>
+      </button>
+    </div>
+  </section>
+
+  <section class="ea">
+    <div class="eb">
+      <img src="src/faqimage.png">
+    </div>
+    <div class="ec">
+      <h1>Answer and Question</h1>
+      <div>
+        <div class="eca">
+          <section class="accordion" id="overview">
+            <h1 class="title"><a onclick="myFunction(); return false;" href="#overview">Do I need a bussiness plan?</a>
+            </h1>
+            <div class="content">
+              <div class="wrapper">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio doloribus possimus odio! Error,
+                  aspernatur similique. Enim, id? Necessitatibus, ipsa magnam sapiente voluptatem quae quibusdam porro
+                  asperiores eligendi, nulla adipisci culpa! </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="accordion" id="how-does-it-work">
+            <h1 class="title"><a href="#how-does-it-work">Do I need a bussiness plan?</a></h1>
+            <div class="content">
+              <div class="wrapper">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione id excepturi accusantium quas
+                  similique commodi amet. Sequi vitae commodi, ratione praesentium sapiente est expedita optio delectus.
+                  Atque harum similique animi?
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="accordion" id="inspiration">
+            <h1 class="title"><a href="#inspiration">Do I need a bussiness plan?</a></h1>
+            <div class="content">
+              <div class="wrapper">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est possimus cum mollitia quas doloribus.
+                  Nostrum aut architecto molestias laudantium repellendus, blanditiis expedita id neque, veniam aperiam
+                  quam excepturi. Nisi, sapiente.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-why-choose-us">
+    <div class="div1">
+      <h1>WHY CHOOSE US</h1>
+      <h2>Create your app page<br> with expert developer</h2>
+      <ul>
+        <li>
+          <div>
+            <img src="src/bluecheck.png">
+          </div>
+          <div class="div3">
+            <h4>First Working Process</h4>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quod facere aspernatur reiciendis vero
+            </h5>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="src/bluecheck.png">
+          </div>
+          <div class="div3">
+            <h4>Dedicated Team Member</h4>
+            <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias error porro quod neque, deserunt
+            </h5>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img src="src/bluecheck.png">
+          </div>
+          <div class="div3">
+            <h4>24/7 Hours Support</h4>
+            <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore voluptatibus minima ab! Eligendi
+              rerum.</h5>
+          </div>
+        </li>
+      </ul>
+      <div class="box">
+        <h1>Technology we use</h1>
+        <div class="lenguages">
+          <img src="src/Lenguajes/c.png" alt="c">
+          <img src="src/Lenguajes/java.png" alt="java">
+          <img src="src/Lenguajes/javascript.png" alt="js">
+          <img src="src/Lenguajes/php.png" alt="php">
+          <img src="src/Lenguajes/python.png" alt="python">
+        </div>
+      </div>
+    </div>
+    <div class="div2">
+      <img src="src/image.png">
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="footer-margin">
+      <div class="footer1">
+        <div class="footer-section1">
+          <div style="display: flex;align-items: center;">
+            <img src="src/blueshield.png" />
+            <h1>SOFTING</h1>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus, mauris non posuere lacinia, libero dui laoreet felis, nec luctus justo est vitae magna.. Sed at leo in turpis sodales vulputate. </p>
+          <button class="learn-more">
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">GET STARTED</span>
+          </button>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="footer-section2">
+          <h3>Quick Link</h3>
+          <div class="buttons-section2">
+            <button>
+              <h6>▸Home</h6>
+            </button>
+            <button>
+              <h6>▸About us</h6>
+            </button>
+            <button>
+              <h6>▸Company History</h6>
+            </button>
+            <button>
+              <h6>▸Features</h6>
+            </button>
+            <button>
+              <h6>▸Blog page</h6>
+            </button>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer2">
+          <div class="footer-section2">
+            <h3>Community</h3>
+            <div class="buttons-section2">
+              <button>
+                <h6>▸Career</h6>
+              </button>
+              <button>
+                <h6>▸Leadership</h6>
+              </button>
+              <button>
+                <h6>▸Strategy</h6>
+              </button>
+              <button>
+                <h6>▸Services</h6>
+              </button>
+              <button>
+                <h6>▸History</h6>
+              </button>
+            </div>
+        </div>
+      </div>
+      <div class="footer1">
+        <div class="footer-section4">
+          <h3>Contact info</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum faucibus.</p>
+        </div>
+        <div class="contact-info">
+          <section>
+           <span class="material-symbols-outlined icon">home</span> 
+           <div style="display:flex; flex-direction: column;margin-left: 10px;">
+            <h5>WEBSITE:</h5>
+            <p>www.loremIpsum.com</p>
+           </div>
+          </section>
+          <section>
+            <span class="material-symbols-outlined icon">mail</span>
+            <div style="display:flex; flex-direction: column; margin-left: 10px;">
+              <h5>EMAIL:</h5>
+              <p>loremipsum@gmail.com</p>
+            </div>
+          </section>
+          <section>
+            <span class="material-symbols-outlined icon">phone</span>
+            <div style="display:flex; flex-direction: column;margin-left: 10px;">
+              <h5>PHONE</h5>
+              <p>11 3883 7156</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h4
+      style="font-size: 1rem; margin-top: 1rem; font-weight: 100;padding-bottom: 1rem; margin-left: auto;margin-right: auto;">
+      &copy; 2024 Designed by softwarearrow.
+    </h4>
+  </footer>
+
 </body>
